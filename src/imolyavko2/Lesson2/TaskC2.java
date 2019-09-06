@@ -12,17 +12,8 @@ public class TaskC2 {
             sum += a[i];
         }
         System.out.println("DEC:"+a[0]+"+"+a[1]+"="+sum);
-        String con1 = Integer.toBinaryString(a[0]);
-        String con2 = Integer.toBinaryString(a[1]);
-        String con3 = Integer.toBinaryString(sum);
-        System.out.println("BIN:"+con1+"+"+con2+"="+con3);
-        con1 = Integer.toHexString(a[0]);
-        con2 = Integer.toHexString(a[1]);
-        con3 = Integer.toHexString(sum);
-        System.out.println("HEX:"+con1+"+"+con2+"="+con3);
-        con1 = Integer.toOctalString(a[0]);
-        con2 = Integer.toOctalString(a[1]);
-        con3 = Integer.toOctalString(sum);
-        System.out.println("OCT:"+con1+"+"+con2+"="+con3);
+        System.out.println("BIN:"+Integer.toBinaryString(a[0])+"+"+Integer.toBinaryString(a[1])+"="+Integer.toBinaryString(sum));
+        System.out.println("HEX:"+Integer.toHexString(a[0])+"+"+Integer.toHexString(a[1])+"="+Integer.toHexString(sum));
+        System.out.println("OCT:"+Integer.toOctalString(a[0])+"+"+Integer.toOctalString(a[1])+"="+Integer.toOctalString(sum));
             }
 }
