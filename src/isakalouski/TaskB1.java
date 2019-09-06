@@ -13,6 +13,6 @@ public class TaskB1 {
             System.out.printf("Квадрат числа" + " " + number + " " + "равен %.0f \n", Math.pow(number, a));
         }
          else
-            System.out.println("Ошибка! Введите ЧИСЛО");
+            System.out.println("Ошибка! Перезапустите программу и введите ЧИСЛО");
     }
 }
