@@ -1,6 +1,6 @@
 package isakalouski;
 
-public class TaskA5 {
+public class TaskB2 {
     private static int a = 1;
     private static int b = 3;
     private static int c = 9;

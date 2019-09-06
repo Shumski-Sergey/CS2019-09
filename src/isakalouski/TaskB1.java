@@ -2,7 +2,7 @@ package isakalouski;
 
 import java.util.Scanner;
 
-public class TaskA4 {
+public class TaskB1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число:");
