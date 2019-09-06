@@ -12,7 +12,6 @@ public class TaskB2 {
 int result = +d-(+a-b+c);
         System.out.println (result);
 
-
     }}
 
 
