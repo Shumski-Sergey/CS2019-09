@@ -1,4 +1,4 @@
-package nbogdan.TaskC1;
+package nbogdan.Lesson1.TaskC1;
 import java.util.Scanner;
 public class TaskC2 {
     public static void main(String[] args) {

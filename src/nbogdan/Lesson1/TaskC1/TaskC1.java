@@ -1,4 +1,4 @@
-package nbogdan.TaskC1;
+package nbogdan.Lesson1.TaskC1;
 import java.util.Scanner;
 public class TaskC1 {
     public static void main(String[] args) {
@@ -7,7 +7,6 @@ public class TaskC1 {
         int a = in.nextInt();
         System.out.print("Введите второе число: ");
         int b = in.nextInt();
-        int c = a + b;
-        System.out.println("Сумма ваших чисел = " + c); //можно как-то выполнить это сложение без создания переменной с?
+        System.out.println("Сумма ваших чисел = " + (a+b)); //можно как-то выполнить это сложение без создания переменной с?
     }
 }
