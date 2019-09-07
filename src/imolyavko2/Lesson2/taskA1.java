@@ -1,4 +1,4 @@
-package imolyavko2;
+package imolyavko2.Lesson2;
 
 public class taskA1 {
 
