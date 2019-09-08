@@ -3,7 +3,7 @@ package isakalouski.L3TASK;
     import org.w3c.dom.ls.LSOutput;
 
     import java.util.Scanner;
-public class A3 {
+public class B1 {
     public static void main(String[] args) {
         System.out.println("Программа решает квадратное уравнение вида:");
         System.out.println("ax^2 + bx + c = 0");
