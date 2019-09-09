@@ -1,4 +1,4 @@
-package nbogdan.Task1;
+package nbogdan.Lesson1.Task1;
 
 public class TaskA3 {
 

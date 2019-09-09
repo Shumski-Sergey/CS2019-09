@@ -1,4 +1,4 @@
-package nbogdan.TaskB1;
+package nbogdan.Lesson1.TaskB1;
 
 public class TaskB2 {
     private static int a = 1;
