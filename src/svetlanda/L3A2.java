@@ -1,6 +1,6 @@
 package svetlanda;
 
-public class TaskL3A1_2 {
+public class L3A2 {
     public static void main(String[] args) {
         String a="Я простой рабочий";
         String b="На тракторном заводе";

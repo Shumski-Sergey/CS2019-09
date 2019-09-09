@@ -2,7 +2,7 @@ package svetlanda;
 
 import java.util.Scanner;
 
-public class TaskL3B1 {
+public class L3B1 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
