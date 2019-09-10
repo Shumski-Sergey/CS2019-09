@@ -2,7 +2,7 @@ package isakalouski.L3TASK;
 
 import java.util.Scanner;
 
-public class С1 {
+public class C1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("ВВЕДИТЕ ТЕМПЕРАТУРУ В ГРАДУСАХ ЦЕЛЬСИЯ: ");
