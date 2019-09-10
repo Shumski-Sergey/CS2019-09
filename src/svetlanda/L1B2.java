@@ -2,7 +2,7 @@ package svetlanda;
 
 import java.util.Scanner;
 
-public class TaskB2 {
+public class L1B2 {
     private static int a =1;
     private static int b =3;
     private static int c =9;

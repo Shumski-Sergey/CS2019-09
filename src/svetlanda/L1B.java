@@ -1,6 +1,6 @@
 package svetlanda;
 
-public class Lab2 {
+public class L1B {
 
     public static void main(String[] args) {
         int i =3*3;

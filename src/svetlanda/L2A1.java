@@ -1,6 +1,6 @@
 package svetlanda;
 
-public class TaskA {
+public class L2A1 {
 
     public static void main(String[] args) {
         int a=3;
