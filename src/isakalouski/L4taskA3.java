@@ -14,7 +14,7 @@ public class L4taskA3 {
 
         else if (a == b) { System.out.println(a + "\t" + b);
             }
-        else if (b == c) { System.out.println(b + "\r" + c);
+        else if (b == c) { System.out.println(b + "\t" + c);
             }
         else if (a == c) { System.out.println(a + "\t" + c);
             }
