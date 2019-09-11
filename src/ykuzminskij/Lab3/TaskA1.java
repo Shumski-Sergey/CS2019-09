@@ -1,12 +1,13 @@
-package ykuzminskij.Lab3;
+//package ykuzminskij.Lab3;
 
-public class TaskA1 {
-    public static void main (String [] args) {
-        int i=0;
-        if (i<10){
-            System.out.println("Я изучаю програмировние");
-            i++;
-        }
-    }
+//public class TaskA1 {
+  //  public static void main (String [] args) {
+    //    for (int i = 0; i < 10; i++) {
+      //      System.out.println("Я изучаю програмировние");
+        //    if (i=3; i=9) {
+          //      System.out.println("я хочу получать большую зарплату");
+            //}
+        //}
+    //}
 
-}
+//}
