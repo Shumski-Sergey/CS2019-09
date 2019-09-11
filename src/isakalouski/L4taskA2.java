@@ -19,7 +19,7 @@ public class L4taskA2 {
         if (number == 3) {
             System.out.println("Среда");
         }
-        if (number == 4){
+        if (number == 4) {
             System.out.println("Четверг");
         }
         if (number == 5) {
@@ -28,7 +28,7 @@ public class L4taskA2 {
         if (number == 6) {
             System.out.println("Суббота");
         }
-        if ( number == 7) {
+        if (number == 7) {
             System.out.println("Воскресенье");
         }
     }
