@@ -3,17 +3,13 @@ import java.util.Scanner;
 
 public class TaskB1 {
     private static int metodyear(int year) {
-        if (!(year % 400 == 0) && (year % 4 == 0)) {
+        if ((year % 400 != 0) && (year % 4 == 0) && (year % 100 == 0) || (year % 4 != 0)) {
             System.out.println("Год невисокосный.");
             year = 365;
-            return year;
-        } else if (year % 4 == 0) {
-            System.out.println("Год високосный.");
-            year = 366;
             return year;
         } else {
-            System.out.println("Год невисокосный.");
-            year = 365;
+            System.out.println("Год високосный.");
+            year = 366;
             return year;
         }
     }

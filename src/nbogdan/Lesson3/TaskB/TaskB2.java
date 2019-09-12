@@ -14,7 +14,6 @@ public class TaskB2 {
                 a = h;
             }
         }
-
     }
        public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
