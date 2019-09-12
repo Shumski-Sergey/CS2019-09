@@ -1,7 +1,6 @@
-package nbogdan.Lesson4;
+package nbogdan.Lesson4.TaskA;
 import java.util.Scanner;
-
-public class TaskA11 {
+public class TaskA1 {
 
     public static void main(String[] args) {
         int[] mass = new int[10];
