@@ -1,8 +1,5 @@
 package ykuzminskij.Lab3;
 
-import java.time.Month;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 public class TaskC1 {
@@ -34,10 +31,6 @@ public class TaskC1 {
                 //else break;
                 month++;
                 }
-
-
-                }
-
-
-            }
+    }
+}
 
