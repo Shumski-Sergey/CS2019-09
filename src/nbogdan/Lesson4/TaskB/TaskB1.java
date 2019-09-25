@@ -7,13 +7,20 @@ import java.util.Scanner;
 public class TaskB1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите данные для списка: ");
-        ArrayList<String>  listik = new ArrayList<String>(5);
-        for (int i = 0; i  < listik.size() + 1; i++) {
+        int full = 0;
+        System.out.println("Введите данные для списка (напишите \"end\" чтобы прекратить заполнение): ");
+        ArrayList<String>  list = new ArrayList<String>();
+        for (int i = 0; i  < list.size() + 1 ; i++) {
             String s = sc.nextLine();
-            listik.add(s);
+            if (s.equals("end") || s.equals("END")) {break;}
+            list.add(s);
         }
-        System.out.println(Arrays.toString(listik.toArray()));
-
+        for (String s : list) {
+            full += s.length();
+        }
+        System.out.println("Количество строк в списке: " + list.size() + "\nОбщая длина строк в списке: " + full + "\nВсе элементы списка: ");
+        for (String s : list) {
+            System.out.println(s);
+        }
     }
 }

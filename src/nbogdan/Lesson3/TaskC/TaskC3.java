@@ -1,6 +1,7 @@
 package nbogdan.Lesson3.TaskC;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class TaskC3 {

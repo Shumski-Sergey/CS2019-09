@@ -12,11 +12,11 @@ public class TaskCC {
             for (int z = 0; z < 10; z++) {
                 table1[h1 - 1][i] = a1;
                 a1 = a1 + h1;
-                System.out.print(table1[h1 - 1][i] + " ");
+                //System.out.print(table1[h1 - 1][i] + " ");
             }
             h1 += 1;
             a1 = h1;
-            System.out.print("\n");
+            //System.out.print("\n");
         }
     }
 }

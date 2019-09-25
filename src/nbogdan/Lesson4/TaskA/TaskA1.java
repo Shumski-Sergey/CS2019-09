@@ -9,8 +9,8 @@ public class TaskA1 {
         for (int i = 0; i < mass.length; i++){
             mass [9 - i] = sc.nextInt();
         }
-        for (int value : mass) {
-            System.out.println(value);
+        for (int x : mass) {
+            System.out.println(x);
         }
     }
 }
